@@ -1,0 +1,44 @@
+body {
+  background-color: black;
+  text-align: center;
+  font-family: "Major Mono Display", monospace;
+}
+
+h1,
+h3,
+h4,
+p {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 235, 246, 1) 10%,
+    rgba(0, 255, 132, 1) 25%,
+    rgba(253, 251, 0, 1) 95%
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.title {
+  font-size: 5.5rem;
+  display: inline-flex;
+}
+
+.divTitle {
+  padding: 10rem 0rem 10rem 0;
+  text-align: left;
+}
+
+.rowbody {
+  text-align: left;
+  margin-left: 10%;
+}
+
+.body {
+  text-align: center;
+  padding: 10% 10%;
+  font-family: "Michroma", sans-serif;
+}
+
+.innerText {
+  font-size: 3rem;
+}

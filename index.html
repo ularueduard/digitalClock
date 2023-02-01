@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Michroma&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Digital Clock</title>
+  </head>
+
+  <body onload="showTime()">
+    <section class="header">
+      <div class="row">
+        <div class="col-lg-3">
+          <img src="Eduard Ularulogo.png" alt="" />
+        </div>
+        <div class="col-lg-9 divTitle">
+          <h1 class="title">Awesome Time Keeper</h1>
+        </div>
+      </div>
+    </section>
+    <section class="body">
+      <div class="row rowbody">
+        <div class="col">
+          <h3 class="innerText">Current time :</h3>
+          <h4 class="innerText" id="time">12:29:19 PM</h4>
+        </div>
+        <div class="col">
+          <h3 class="innerText">Current Date:</h3>
+          <h4 class="innerText" id="date">31.01.2023</h4>
+        </div>
+      </div>
+    </section>
+    <section class="footer">
+      <p>Eduard Ularu</p>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+</html>
